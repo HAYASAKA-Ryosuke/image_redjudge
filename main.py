@@ -1,7 +1,7 @@
 from PIL import Image
 import numpy as np
-width = 640
-height = 480 
+width = 1674
+height = 900 
 #left=213
 #center=427
 #width = 500
@@ -9,7 +9,7 @@ height = 480
 left = width/3
 center = (width/3)*2
 
-im = Image.open("photo1.jpg")
+im = Image.open("torero.png")
 rgbimg = im.convert("RGB")
 rgb = list(rgbimg.getdata())
 data=[]
