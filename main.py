@@ -71,8 +71,3 @@ class JudgeGoal():
         pilImg = Image.fromarray(self.data)
         pilImg.show()
 
-judge = JudgeGoal()
-judge.loadimage(filename='./torero.png')
-judge.objectselect()
-judge.objectdirection()
-judge.imageshow()
